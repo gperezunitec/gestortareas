@@ -1,4 +1,6 @@
 import Image from "next/image";
+import FormularioTarea from "@/app/Components/FormularioTarea";
+import {TablaTarea} from "@/app/Components/TablaTarea";
 
 export default function Home() {
   return (
@@ -6,7 +8,8 @@ export default function Home() {
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
 
       </main>
-
+        <FormularioTarea></FormularioTarea>
+        <TablaTarea></TablaTarea>
     </div>
   );
 }

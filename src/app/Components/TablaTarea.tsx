@@ -1,3 +1,4 @@
+'use client'
 import {useContextGestor} from "@/app/Provider/GestorProvider";
 
 export const TablaTarea = () => {

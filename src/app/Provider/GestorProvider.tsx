@@ -1,3 +1,4 @@
+'use client'
 import {ReactNode, useContext, useState} from "react";
 import {Tarea} from "@/app/Models/Tarea";
 import {ContextGestor} from "@/app/Context/ContextGestor";
