@@ -9,7 +9,7 @@ interface Plantilla{
 }
 
 
-export const GestorProvider = ({children}:Plantilla) => {
+export default function GestorProvider ({children}:Plantilla)  {
 
     const [tarea, setTarea] = useState<Tarea[]>([]);
 
